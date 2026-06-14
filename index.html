@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Arthur Leclerc | Portfolio créatif</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Fichier CSS local -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container nav-container">
+        <div class="logo">ArthurL.</div>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+    <!-- Section Accueil (Hero) -->
+    <section id="accueil" class="section">
+        <div class="container hero">
+            <div class="hero-content">
+                <h1>Créateur d'expériences digitales</h1>
+                <p>Bonjour, je suis Arthur Leclerc — designer & développeur front-end. Je transforme des idées en interfaces élégantes, immersives et performantes.</p>
+                <div class="btn-group">
+                    <a href="#projets" class="btn btn-primary">Voir mes travaux</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2>Projets récents</h2>
+            <p style="margin-bottom: 2rem; color: #4a4570;">Quelques réalisations alliant design & technologie</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-img">
+                        <i class="fas fa-chart-line" style="font-size: 4rem;"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Nexa Dashboard</h3>
+                        <p>Tableau de bord analytique avec visualisation de données, responsive et mode sombre.</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-img">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Bloom & Co</h3>
+                        <p>E-commerce de fleurs artisanales, expérience fluide et panier intelligent.</p>
+                        <div class="tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-img">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>ArtSpace Immersive</h3>
+                        <p>Galerie virtuelle 3D pour artistes, utilisant Three.js et animations interactives.</p>
+                        <div class="tags">
+                            <span class="tag">Three.js</span>
+                            <span class="tag">WebGL</span>
+                            <span class="tag">GSAP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section">
+        <div class="container">
+            <h2>Savoir-faire & outils</h2>
+            <p style="margin-bottom: 2rem; color:#4a4570;">Technologies et domaines d'expertise</p>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Vue.js</span>
+                        <span class="skill-badge">JavaScript/TS</span>
+                        <span class="skill-badge">HTML5/CSS3</span>
+                        <span class="skill-badge">Tailwind</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Design</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Figma</span>
+                        <span class="skill-badge">Adobe XD</span>
+                        <span class="skill-badge">UI/UX</span>
+                        <span class="skill-badge">Webflow</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Backend & outils</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Git/Github</span>
+                        <span class="skill-badge">Firebase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Parlons de votre projet</h2>
+            <p style="margin-bottom: 2rem; color:#4a4570;">Une idée ? Envoyez-moi un message, je réponds sous 24h.</p>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> arthur.leclerc@creaportfolio.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +33 6 45 78 23 90</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Lyon / Paris — Remote</p>
+                    <div class="social-links" style="margin-top: 2rem;">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="demoForm" action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nom complet" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Adresse email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Décrivez votre projet ou message..."></textarea>
+                        </div>
+                        <button type="submit" id="submitBtn">Envoyer <i class="fas fa-paper-plane"></i></button>
+                        <p id="formFeedback" style="margin-top: 12px; font-size: 0.85rem;"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2025 Arthur Leclerc — Portfolio créatif. Tous droits réservés.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem;">Conçu avec <i class="fas fa-heart" style="color: #ff7b72;"></i> pour l'inspiration</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
